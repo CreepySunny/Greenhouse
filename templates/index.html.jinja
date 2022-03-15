@@ -1,9 +1,11 @@
-{% extends 'base.html' %}
+{% extends 'base.html.jinja' %}
 
 {% block head %}
 <title>Greenhouse - Dashboard</title>
 {% endblock %}
 
 {% block body %}
-<p>Test World!</p>
+<h1>Sensor ID: 499982</h1>
+<p>Humidity: {{ h_sens }}</p>
+<p>Temparature: {{ t_sens }}</p>
 {% endblock %}
