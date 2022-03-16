@@ -1,3 +1,8 @@
 h1 {
-    font-family: sans-serif;
+    text-decoration: underline;
+}
+body {
+    background-color: black;
+    color: white;    
+    text-align: center;
 }
