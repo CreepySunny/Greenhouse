@@ -6,6 +6,8 @@
 
 {% block body %}
 <h1>Sensor ID: 499982</h1>
-<p>Humidity: {{ h_sens }}</p>
-<p>Temparature: {{ t_sens }}</p>
+<h2>Time: {{ data["dt"] }}</h2>
+<p>Humidity: {{ data["humi"] }} %</p>
+<p>Temparature: {{ data["temp"] }} °C</p>
+<p>Light-level: {{ data["light"] }} W/m²</p>
 {% endblock %}
