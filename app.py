@@ -17,7 +17,7 @@ def gen_rand_data():
 def index():
     """The homepage funciton"""
     gen_rand_data()
-    return render_template('index.html.jinja', data=data)
+    return render_template('index.html', data=data)
 
 if __name__ == "__main__":
     app.run(debug=True)
